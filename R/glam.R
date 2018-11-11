@@ -173,27 +173,27 @@ glam_func=function(x,par,myscale,h_fun, f_fun){
   f_function_type=f_fun
 
   lehman_function=function (x, par, h_function_type, f_function_type){
-#     glam_myslopefunc=glam:::glam_myslopefunc
-#     glam_mydiff1=glam:::glam_mydiff1
-#     glam_mydiff2=glam:::glam_mydiff2
-#     glam_mydiff3=glam:::glam_mydiff3
-#     glam_myfunc4=glam:::glam_myfunc4
-#     glam_myfunc5=glam:::glam_myfunc5
-#     glam_myfunc6=glam:::glam_myfunc6
+    glam_myslopefunc=rcpp_glam_myslopefunc
+    glam_mydiff1=rcpp_glam_mydiff1
+    glam_mydiff2=rcpp_glam_mydiff2
+    glam_mydiff3=rcpp_glam_mydiff3
+    glam_myfunc4=rcpp_glam_myfunc4
+    glam_myfunc5=rcpp_glam_myfunc5
+    glam_myfunc6=rcpp_glam_myfunc6
     ## h function has three choices
     ## F function always logistic
     if (h_function_type == 'first') { ## u get first h function and score functions
-      glam_myhfunc=glam_myhfunc1
-      glam_scorefuncmu=glam_scorefuncmu1
-      glam_scorefunctheta=glam_scorefunctheta1} else
+      glam_myhfunc=rcpp_glam_myhfunc1
+      glam_scorefuncmu=rcpp_glam_scorefuncmu1
+      glam_scorefunctheta=rcpp_glam_scorefunctheta1} else
         if (h_function_type == 'second') { ## u get second h function and score functions
-          glam_myhfunc=glam_myhfunc2
-          glam_scorefuncmu=glam_scorefuncmu2
-          glam_scorefunctheta=glam_scorefunctheta2} else
+          glam_myhfunc=rcpp_glam_myhfunc2
+          glam_scorefuncmu=rcpp_glam_scorefuncmu2
+          glam_scorefunctheta=rcpp_glam_scorefunctheta2} else
             if (h_function_type == 'third') { ## u get third h function and score functions
-              glam_myhfunc=glam_myhfunc3
-              glam_scorefuncmu=glam_scorefuncmu3
-              glam_scorefunctheta=glam_scorefunctheta3}
+              glam_myhfunc=rcpp_glam_myhfunc3
+              glam_scorefuncmu=rcpp_glam_scorefuncmu3
+              glam_scorefunctheta=rcpp_glam_scorefunctheta3}
     # # h function has three choices
     # # F function always logistic
     # h_function_type = 'first' ## u get first h function and score functions
