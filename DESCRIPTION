@@ -1,0 +1,9 @@
+Package: glam_codes
+Type: Package
+Title: Estimate asymmetry and location parameter by GLAM
+Version: 1.0
+Date: 2018-11-11
+Author: Navruzbek Karamatov
+Maintainer: Who to complain to <navruzbek1992@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
