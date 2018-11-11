@@ -1,10 +1,11 @@
 \name{i}
 \alias{i}
 \docType{data}
-\title{
+\title{ GLAM model
 %%   ~~ data name/kind ... ~~
 }
 \description{
+  Estimates skewness and location of given data based on Generalized Lehmanns Alternative Model
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
 \usage{data("i")}
