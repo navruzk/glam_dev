@@ -1,24 +1,24 @@
-\name{glam_codes-package}
-\alias{glam_codes-package}
-\alias{glam_codes}
+\name{glam-package}
+\alias{glam-package}
+\alias{glam}
 \docType{package}
 \title{
-\packageTitle{glam_codes}
+\packageTitle{glam}
 }
 \description{
-\packageDescription{glam_codes}
+\packageDescription{glam}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{glam_codes}
-\packageIndices{glam_codes}
+\packageDESCRIPTION{glam}
+\packageIndices{glam}
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-\packageAuthor{glam_codes}
+\packageAuthor{glam}
 
-Maintainer: \packageMaintainer{glam_codes}
+Maintainer: \packageMaintainer{glam}
 }
 \references{
 ~~ Literature or other references for background information ~~
