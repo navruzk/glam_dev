@@ -1,7 +1,7 @@
 \name{mylehmanfunction}
 \alias{mylehmanfunction}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{ GLAM model
 %%  ~~function to do ... ~~
 }
 \description{
