@@ -172,13 +172,13 @@ glam_func=function(x,par,myscale,h_fun, f_fun){
   f_function_type=f_fun
 
   lehman_function=function (x, par, h_function_type, f_function_type){
-    glam_myslopefunc=glam::glam_myslopefunc
-    glam_mydiff1=glam::glam_mydiff1
-    glam_mydiff2=glam::glam_mydiff2
-    glam_mydiff3=glam::glam_mydiff3
-    glam_myfunc4=glam::glam_myfunc4
-    glam_myfunc5=glam::glam_myfunc5
-    glam_myfunc6=glam::glam_myfunc6
+#     glam_myslopefunc=glam::glam_myslopefunc
+#     glam_mydiff1=glam::glam_mydiff1
+#     glam_mydiff2=glam::glam_mydiff2
+#     glam_mydiff3=glam::glam_mydiff3
+#     glam_myfunc4=glam::glam_myfunc4
+#     glam_myfunc5=glam::glam_myfunc5
+#     glam_myfunc6=glam::glam_myfunc6
     ## h function has three choices
     ## F function always logistic
     if (h_function_type == 'first') { ## u get first h function and score functions
