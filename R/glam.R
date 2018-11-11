@@ -10,7 +10,7 @@ for (i in 1:1){
   # library(glam)
   library(parallel)
 }
-sourceCpp('/src/glam_timestwo.cpp')
+sourceCpp('glam_timestwo.cpp')
 
 summary.optim_params <- function(object, ...)
 {
