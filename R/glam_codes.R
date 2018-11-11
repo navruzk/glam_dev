@@ -303,11 +303,11 @@ print.glam_func <- function(x, ...)
   cat("Asymmetry:")
   print(x$par[2])
 }
-result
-x=rnorm(100,0,1)
-starting_value=c(0,1)
+# result
+# x=rnorm(100,0,1)
+# starting_value=c(0,1)
 
-result=glam_func(x, par=starting_value,h_fun='first',f_fun = 'logistic',myscale = 0.01)
-result
-result$par[1]
-summary(result)
+# result=glam_func(x, par=starting_value,h_fun='first',f_fun = 'logistic',myscale = 0.01)
+# result
+# result$par[1]
+# summary(result)
