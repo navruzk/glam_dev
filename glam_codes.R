@@ -1,4 +1,4 @@
-sourceCpp('glam_timestwo.cpp')
+
 for (i in 1:1){
   library(doParallel)
   library(lubridate)
@@ -11,6 +11,7 @@ for (i in 1:1){
   # library(glam)
   library(parallel)
 }
+sourceCpp('glam_timestwo.cpp')
 summary.optim_params <- function(object, ...)
 {
   # se <- sqrt(diag(object$vcov))
