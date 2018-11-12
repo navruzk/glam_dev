@@ -4,7 +4,7 @@
 #include <RcppEigen.h>
 #include <Rcpp.h>
 
-using namespace Numer;
+using namespace Rcpp;
 
 // fastLR_
 Rcpp::List fastLR_(double eps_f, double eps_g);
