@@ -1,9 +1,9 @@
 # rcpp_glam_add <- function(x,y) {
 #     val = glam:::glam_add(x,y)
 #     val}
-glam_add <- function(orig) {
-    .Call(`_glam_glam_add`, orig)
-}
+# glam_add <- function(orig) {
+#     .Call(`_glam_glam_add`, orig)
+# }
 # rcpp_glam_myhfunc1 <- function(x,y) {
 #     val = glam_myhfunc1(x,y)
 #     val
