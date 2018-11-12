@@ -4,4 +4,4 @@ rcpp_glam_add=function(x,y){
 }
 library(Rcpp)
 library(RcppArmadillo)
-sourceCpp('glam_add_cpp')
+sourceCpp('glam_add_cpp.cpp')
