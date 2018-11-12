@@ -2,8 +2,8 @@
 
 using namespace Rcpp;
 
-// MatrixExample
-NumericVector glam_add(intx int y);
+// glam_add
+NumericVector glam_add(int x int y);
 RcppExport SEXP _rcpp_glam_add(SEXP origSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
