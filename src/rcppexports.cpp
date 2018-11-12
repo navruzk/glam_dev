@@ -4,11 +4,11 @@ using namespace Rcpp;
 
 // glam_add
 NumericVector glam_add(int x int y);
-RcppExport SEXP _rcpp_glam_add(SEXP origSEXP) {
+RcppExport SEXP _rcpp_glam_add(int x int y) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< int x, int y>::type orig(origSEXP);
+    Rcpp::traits::input_parameter< int x, int y>;
     rcpp_result_gen = Rcpp::wrap(glam_add(orig));
     return rcpp_result_gen;
 END_RCPP
