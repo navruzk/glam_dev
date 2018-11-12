@@ -1,6 +1,6 @@
 
 useDynLib("glam", .registration=TRUE)
 
-export('rcpp_glam_add',
-"glam_add_cpp")
+export(rcpp_glam_add, 
+       glam_add_cpp)
 importFrom("Rcpp", "evalCpp")
