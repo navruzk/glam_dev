@@ -1,3 +1,2 @@
 import(Rcpp)
 export(fastLR)
-useDynLib(Rcpp)
