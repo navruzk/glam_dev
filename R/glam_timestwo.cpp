@@ -12,6 +12,11 @@ using namespace Rcpp;
 //   http://gallery.rcpp.org/
 //
 // [[Rcpp::export]]
+Numeric glam_add_cpp(int x, int y){
+                int total;
+                total = x + y;
+                return total;}
+// [[Rcpp::export]]
 NumericVector glam_myhfunc1(NumericMatrix x, double y){
                 int n=x.nrow();
                 NumericVector total(n);
