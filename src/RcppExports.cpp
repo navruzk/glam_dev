@@ -14,7 +14,7 @@ BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< double >::type eps_f(eps_fSEXP);
     Rcpp::traits::input_parameter< double >::type eps_g(eps_gSEXP);
-    rcpp_result_gen = Rcpp::wrap(fastLR_(x, y);
+    rcpp_result_gen = Rcpp::wrap(fastLR_(eps_f, eps_g);
     return rcpp_result_gen;
 END_RCPP
 }
