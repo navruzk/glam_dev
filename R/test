@@ -1,4 +1,4 @@
-glam_func1=function(x){
-  val=glam:::rcpp_glam_myslopefunc(x)
+rcpp_glam_add=function(x){
+  val=glam_add(x,y)
   val
 }
