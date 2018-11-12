@@ -291,11 +291,11 @@ print.summary.optim_params <- function(x, ...)
 #     myscore=sum(abs(myscorefunc), abs(myscorefuncmu))
 #     return (myscore)
 #   }
-  optim_params=optim(x = x, par=par,h_function_type=h_function_type, f_function_type=f_function_type, 
-                     lehman_function)
-  class(optim_params)='glam_func'
-  optim_params
-}
+#   optim_params=optim(x = x, par=par,h_function_type=h_function_type, f_function_type=f_function_type, 
+#                      lehman_function)
+#   class(optim_params)='glam_func'
+#   optim_params
+# }
 print.glam_func <- function(x, ...)
 {
   cat("\nCoefficients:\n")
