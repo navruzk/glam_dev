@@ -1,4 +1,4 @@
-#include <RcppNumerical.h>
+#include <Rcpp.h>
 
 using namespace Numer;
 
