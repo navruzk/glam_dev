@@ -1,1 +1,3 @@
-export(fastLR, fastLR_)
+improt(Rcpp)
+export(fastLR)
+usedynlib(glam)
