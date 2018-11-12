@@ -8,7 +8,7 @@ using namespace Rcpp;
 
 // fastLR_
 Rcpp::List fastLR_(double eps_f, double eps_g);
-RcppExport SEXP _RcppNumerical_fastLR_(SEXP eps_fSEXP, SEXP eps_gSEXP) {
+RcppExport SEXP _glam_fastLR_(SEXP eps_fSEXP, SEXP eps_gSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
