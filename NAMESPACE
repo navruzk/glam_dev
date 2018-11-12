@@ -1,13 +1,6 @@
-exportPattern("^[[:alpha:]]+")
-useDynLib("RcppExamples", .registration=TRUE)
 
-export("RcppDataFrame",
-       "RcppDateExample",
-       "RcppListExample",
-       "RcppNumericVectorExample",
-       "RcppMatrixExample",
-       "RcppRNGsExample",
-       "RcppStringVectorExample"
-)
+useDynLib("glam", .registration=TRUE)
+
+export("rcppglam_add")
 
 importFrom("Rcpp", "evalCpp")
