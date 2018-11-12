@@ -1,6 +1,6 @@
-#include <Rcpp.h>
+#include <RcppNumerical.h>
 
-using namespace Rcpp;
+using namespace Numer;
 
 // [[Rcpp::export]]
 double fastLR_(double eps_f, double eps_g)
