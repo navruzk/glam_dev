@@ -1,7 +1,10 @@
 #include <Rcpp.h>
 
 using namespace Rcpp;
-
+// [[Rcpp::export]]
+NumericVector glam_add(int x, int y){
+                total = x + y;
+                return total;}
 // [[Rcpp::export]]
 NumericVector glam_myhfunc1(NumericMatrix x, double y){
                 int n=x.nrow();
