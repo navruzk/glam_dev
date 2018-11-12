@@ -1,3 +1,7 @@
+rcpp_glam_add <- function(x,y) {
+    val = glam_add(x,y)
+    val
+}
 rcpp_glam_myhfunc1 <- function(x,y) {
     val = glam_myhfunc1(x,y)
     val
