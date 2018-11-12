@@ -2,7 +2,7 @@
 
 using namespace Rcpp;
 // [[Rcpp::export]]
-NumericVector glam_add(int x, int y){
+Numeric glam_add_cpp(int x, int y){
                 int total;
                 total = x + y;
                 return total;}
