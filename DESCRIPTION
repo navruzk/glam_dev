@@ -21,4 +21,4 @@ Imports:
       Smisc,
       glogis,
       parallel,
-LinkingTo: Rcpp
+LinkingTo: Rcpp, RcppEigen
